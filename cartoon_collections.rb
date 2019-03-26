@@ -26,9 +26,6 @@ def find_the_cheese(food)# code an argument here
   cheese = food.any? do |x|
     cheese_types.index x
   end
- if cheese == true
-   return true
- else
-   return nil
+return food[cheese]
  end
 end
