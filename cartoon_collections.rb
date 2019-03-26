@@ -23,6 +23,23 @@ end
 def find_the_cheese(food)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese = 0
-  return food.index(cheese_types)
+  a = food.index do |x|
+    x == "cheddar"
+  end
+  b = food.index do |x|
+    x == "cheedar"
+  end
+  c = food.index do |x|
+    x == "camembert"
+  end
+  if a != nil
+    return food[a]
+  elsif b != nil
+    return food[b]
+  elsif c != nil
+    return food[c]
+  else
+    return nil
+  end
+  
 end
