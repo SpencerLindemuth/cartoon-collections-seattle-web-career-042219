@@ -24,8 +24,5 @@ def find_the_cheese(food)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = 0
-  food.any? do |x|
-    cheese_types.index x
-  end
-return food[cheese]
+  return food.index(cheese_types)
 end
