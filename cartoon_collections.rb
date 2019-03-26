@@ -27,5 +27,6 @@ def find_the_cheese(food)# code an argument here
     if cheese_types.include? cheese
       return food[x]
     end
+  end
     return nil
 end
