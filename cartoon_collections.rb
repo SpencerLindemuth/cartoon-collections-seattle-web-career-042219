@@ -27,5 +27,4 @@ def find_the_cheese(food)# code an argument here
     cheese_types.index x
   end
 return food[cheese]
- end
 end
