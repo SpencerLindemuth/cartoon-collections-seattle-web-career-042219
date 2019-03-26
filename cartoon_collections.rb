@@ -8,7 +8,7 @@ end
 def summon_captain_planet(calls)# code an argument here
   # Your code here
   new_array = calls.collect do |x|
-    x = x.capitalize
+    x = x.capitalize + "!"
   end
   return new_array
 end
